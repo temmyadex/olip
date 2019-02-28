@@ -55,6 +55,7 @@
   	.bg-2{
   		background-color:#fedbd0;
   		color:#442c2e;
+  		padding-top: 50px;
   	}
   	.list-group-item:first-child{
   		border-top-right-radius: 0;
@@ -81,6 +82,9 @@
   		background-color: #fff;
   		color:#000;
   	}
+  	h2, h3{
+  		text-transform: uppercase;
+  	}
   	.navbar{
   		margin-bottom: 0;
   		background-color: #2d2d30;
@@ -91,6 +95,16 @@
   	}
   	.navbar li a, .navbar .navbar-brand{
   		color: #d5d5d5 !important;
+  	}
+  	.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 100%;
+  width: auto;
+}
+  	.navbar-brand>img{
+  		padding:0 15px;
   	}
   	.navbar-nav li a:hover{
   		color: #fff !important;
@@ -109,7 +123,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a href="#" class="navbar-brand">OLiP</a>
+				<a href="#" class="navbar-brand"><img src="ProjectImage/oliplogo.png"></a>
 			</div>
 			<div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-right navbar-nav">
@@ -167,7 +181,7 @@
 	</div>
 
 			<div class="container bg-2 text-center" id="olip">
-				<h3>Onala Literacy Programme</h3>
+				<h2>Onala Literacy Programme</h2>
 				<p>
 				The Organisation aims to address social and economic issues of the community in which we engage
 				in. We will do this by offering teaching and learning services to members, in order to
@@ -177,16 +191,17 @@
 				vocational skills, as well as Health and Social Care Training. This would be provided to
 				refugees/migrants, adults, youths and out of school members of the community.	
 				</p>
-			</div>
-		<div class="container text-center">
-				<h2>Meet the Management</h2><br>
+			<!-- </div> -->
+			<br>
+		<!-- <div class="container bg-2 text-center"> -->
+				<h2>The Management</h2><br>
 			<div class="col-sm-4">
 				<p><strong>Nonye Agwunobi</strong></p><br>
 				<a href="#demo" data-toggle="collapse">
 				<img src="ProjectImage/Onalaliteracy4.jpg" class="img-circle person" alt="images from the project">
 				</a>
 				<div id="demo" class="collapse">
-					<p>As a former Stem Ambassador created awareness on STEM career choice as a highly rewarding career path amongst high school students</p>
+					<p>As a former Stem Ambassador created awareness on STEM career choice as a highly rewarding career path amongst high school studentsyou have time </p>
 					<p>Pragmatic Mechatronics Engineer with proven experience of over 5 years in delivering high tech
 					projects. Driven and highly organised team leader with a passion for continuous improvement and continuous learning.  Strong desire for a challenging hand on system engineering in emerging technology. Excellent interpersonal skills and ability to handle pressure in a fast pace environment. Thrives as a change catalyst in STEM and Youth Empowerment.</p></p>
 				</div>
@@ -214,8 +229,9 @@
 				</div>
 			</div>
 	</div>
+	<div class="container-fluid"><hr></div>
 
-<div class="container text-center bg-1" id="training">
+<div class="container-fluid text-center bg-1" id="training">
 			<h2>EMPOWERING THE COMMUNITY ONE COMMUNITY AT TIME</h2>
 			<p>Building the economy of the nation starts with communities within the Nation</p>
 			<p><strong>Teach</strong> the basic literacy (Reading, Writing and Arithmetic 3Rs) and ITC in order to enhance more effectiveness of their skills acquisition.</p>
@@ -244,47 +260,49 @@
 				</div>
 			</div>
 		</div>
-		<!-- <hr> -->
-<!-- <div class="bg-1">
-	<div class="container">
-		<h3 class="text-center">Next Cohort</h3>
-		<p class="text-center">The next cohort will be on the highlighted areas</p>
-		<ul class="list-group">
-			<li class="list-group-item">Health & Social Care</li>
-			<li class="list-group-item">Customer Service</li>
-			<li class="list-group-item">Health & Safety</li>
-			<li class="list-group-item">Food Safety Training</li>
-		</ul> -->
-		<div class="container bg-2 text-center" id="event">
+
+		<!-- the section for service and event -->
+		<div class="container-fluid bg-2 text-center" id="event">
+			<h2>SERVICES & EVENTS</h2>
+			<p>Our Service and Event includes but not limited to the following training.</p>
+			<p>Want to know more as regards other training we offer, we are just an email away and you can as well reach us via the <a href="#contact">Contact Section </a>below.</p>
 			<div class="col-sm-3">
 				<div class="thumbnail">
-					<img src="ProjectImage/Onalaliteracy4.jpg" alt="">
-					<p>Health & Social Care</p>
-					<button class="btn">Register Now</button>
+					<img src="ProjectImage/healthsocial.jpeg" alt="">
+					<h3>Health & Social Care</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.</p>
+					<button class="btn">Read More</button>
 				</div>
 			</div>
 
 			<div class="col-sm-3">
 			<div class="thumbnail">
-				<img src="ProjectImage/Onalaliteracy12.jpg" alt="">
-				<p>Food Safety Training</p>
-				<button class="btn">Register Now</button>
+				<img src="ProjectImage/foodsafety.jpeg" alt="">
+				<h3>Food Safety</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.</p>
+				<button class="btn">Read More</button>
 			</div>
 
 			</div>
 			<div class="col-sm-3">
 				<div class="thumbnail">
-					<img src="ProjectImage/Onalaliteracy13.jpg" alt="">
-					<p>Customer Service</p>
-					<button class="btn">Register Now</button>
+					<img src="ProjectImage/customerservice.jpeg" alt="">
+					<h3>Customer Service</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.</p>
+					<button class="btn">Read More</button>
 				</div>
 			</div>
 
 			<div class="col-sm-3">
 				<div class="thumbnail">
-					<img src="ProjectImage/Onalaliteracy16.jpg" alt="">
-					<p>Health & Safety</p>
-					<button class="btn">Register Now</button>
+					<img src="ProjectImage/ICT.jpeg" alt="">
+					<h3>ICT</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.</p>
+					<button class="btn">Read More</button>
 				</div>
 			</div>
 		</div>
